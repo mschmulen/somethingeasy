@@ -464,6 +464,7 @@
 				AE78C7DD182ECC3400896BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE78C7DE182ECC3400896BEE /* Build configuration list for PBXNativeTarget "ios-appTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				AE78C7E0182ECC3400896BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
