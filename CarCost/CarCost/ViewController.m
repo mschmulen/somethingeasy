@@ -24,18 +24,17 @@
         _tableData = [[NSMutableArray alloc] init];
         
         ModelCar *car = [[ModelCar alloc] init];
-        car.name = @"MY CAR B";
+        car.name = @"Expense Yack";
         [ _tableData addObject:car];
         
         ModelCar *cara = [[ModelCar alloc] init];
-        cara.name = @"MY CAR A";
+        cara.name = @"Expense Foo";
         [ _tableData addObject:cara];
         
     }
     
     return _tableData;
 };
-
 
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -77,10 +76,19 @@
     return cell;
 }
 
+
+#pragma mark - UIViewController methods
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
+
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

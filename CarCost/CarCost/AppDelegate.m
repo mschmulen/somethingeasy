@@ -12,6 +12,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+ 
+    
+    //Change this 
+    //self.window.tintColor = [UIColor purpleColor];
+    //self.window.bar
+    
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    
+    //[self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:UITextAttributeTextColor]];
+    
+    //self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
+    //self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    //[self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    //self.navigationController.navigationBar.translucent = NO;
+    
     // Override point for customization after application launch.
     return YES;
 }

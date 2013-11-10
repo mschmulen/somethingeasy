@@ -1,18 +1,18 @@
 //
-//  ViewExpenseDetailViewController.m
+//  NavigationController.m
 //  carcost
 //
 //  Created by Matt Schmulen on 11/9/13.
 //  Copyright (c) 2013 Matt Schmulen. All rights reserved.
 //
 
-#import "ViewExpenseDetail.h"
+#import "NavigationController.h"
 
-@interface ViewExpenseDetail ()
+@interface NavigationController ()
 
 @end
 
-@implementation ViewExpenseDetail
+@implementation NavigationController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,19 +22,16 @@
     }
     return self;
 }
-- (IBAction)actionClose:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:Nil];
-}
-
-#pragma mark - UIViewController methods
-- (BOOL)prefersStatusBarHidden {
-    return YES;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.navigationBar.barTintColor = [UIColor blueColor];
+    self.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationBar.translucent = NO;
+    
 }
 
 - (void)didReceiveMemoryWarning
