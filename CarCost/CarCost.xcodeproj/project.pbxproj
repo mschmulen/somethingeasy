@@ -28,6 +28,8 @@
 		AE9A97D4182F296D0089D980 /* ViewReport.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A97D3182F296D0089D980 /* ViewReport.m */; };
 		AE9A97D7182F52720089D980 /* main-background.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9A97D6182F52720089D980 /* main-background.png */; };
 		AE9A97D9182F58C40089D980 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9A97D8182F58C40089D980 /* chart.png */; };
+		AE9A97DC182F5BF10089D980 /* profile-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9A97DA182F5BF10089D980 /* profile-pic.png */; };
+		AE9A97DD182F5BF10089D980 /* receipt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE9A97DB182F5BF10089D980 /* receipt.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		AE9A97D3182F296D0089D980 /* ViewReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReport.m; sourceTree = "<group>"; };
 		AE9A97D6182F52720089D980 /* main-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-background.png"; sourceTree = "<group>"; };
 		AE9A97D8182F58C40089D980 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart.png; sourceTree = "<group>"; };
+		AE9A97DA182F5BF10089D980 /* profile-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-pic.png"; sourceTree = "<group>"; };
+		AE9A97DB182F5BF10089D980 /* receipt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = receipt.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,9 +148,11 @@
 				AE9A97CF182F269E0089D980 /* ViewExpenseDetail.h */,
 				AE9A97D0182F269E0089D980 /* ViewExpenseDetail.m */,
 				AE9A97D2182F296D0089D980 /* ViewReport.h */,
+				AE9A97D3182F296D0089D980 /* ViewReport.m */,
+				AE9A97DA182F5BF10089D980 /* profile-pic.png */,
+				AE9A97DB182F5BF10089D980 /* receipt.jpg */,
 				AE9A97D8182F58C40089D980 /* chart.png */,
 				AE9A97D6182F52720089D980 /* main-background.png */,
-				AE9A97D3182F296D0089D980 /* ViewReport.m */,
 			);
 			path = carcost;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			files = (
 				AE9A97D7182F52720089D980 /* main-background.png in Resources */,
 				AE9A97AA182F22B60089D980 /* Images.xcassets in Resources */,
+				AE9A97DD182F5BF10089D980 /* receipt.jpg in Resources */,
 				AE9A979C182F22B60089D980 /* InfoPlist.strings in Resources */,
 				AE9A97D9182F58C40089D980 /* chart.png in Resources */,
+				AE9A97DC182F5BF10089D980 /* profile-pic.png in Resources */,
 				AE9A97A5182F22B60089D980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
