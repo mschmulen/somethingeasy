@@ -12,9 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
- 
     
-    //Change this 
+    //Change this
     //self.window.tintColor = [UIColor purpleColor];
     //self.window.bar
     

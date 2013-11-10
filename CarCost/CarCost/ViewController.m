@@ -76,12 +76,10 @@
     return cell;
 }
 
-
 #pragma mark - UIViewController methods
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
-
 
 - (void)viewDidLoad
 {
