@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewReport : UIViewController
+@interface ViewReport : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

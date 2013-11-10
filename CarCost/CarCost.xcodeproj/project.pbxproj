@@ -26,6 +26,8 @@
 		AE9A97CE182F25890089D980 /* ViewBreakdown.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A97CD182F25890089D980 /* ViewBreakdown.m */; };
 		AE9A97D1182F269E0089D980 /* ViewExpenseDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A97D0182F269E0089D980 /* ViewExpenseDetail.m */; };
 		AE9A97D4182F296D0089D980 /* ViewReport.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9A97D3182F296D0089D980 /* ViewReport.m */; };
+		AE9A97D7182F52720089D980 /* main-background.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9A97D6182F52720089D980 /* main-background.png */; };
+		AE9A97D9182F58C40089D980 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9A97D8182F58C40089D980 /* chart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,16 +60,18 @@
 		AE9A97B8182F22B60089D980 /* carcostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "carcostTests-Info.plist"; sourceTree = "<group>"; };
 		AE9A97BA182F22B60089D980 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE9A97BC182F22B60089D980 /* carcostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carcostTests.m; sourceTree = "<group>"; };
-		AE9A97C6182F23FE0089D980 /* ModelCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCar.h; sourceTree = "<group>"; };
-		AE9A97C7182F23FE0089D980 /* ModelCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCar.m; sourceTree = "<group>"; };
-		AE9A97C8182F23FE0089D980 /* ModelDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDriver.h; sourceTree = "<group>"; };
-		AE9A97C9182F23FE0089D980 /* ModelDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDriver.m; sourceTree = "<group>"; };
+		AE9A97C6182F23FE0089D980 /* ModelCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelCar.h; path = carcost/ModelCar.h; sourceTree = "<group>"; };
+		AE9A97C7182F23FE0089D980 /* ModelCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelCar.m; path = carcost/ModelCar.m; sourceTree = "<group>"; };
+		AE9A97C8182F23FE0089D980 /* ModelDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDriver.h; path = carcost/ModelDriver.h; sourceTree = "<group>"; };
+		AE9A97C9182F23FE0089D980 /* ModelDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelDriver.m; path = carcost/ModelDriver.m; sourceTree = "<group>"; };
 		AE9A97CC182F25890089D980 /* ViewBreakdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBreakdown.h; sourceTree = "<group>"; };
 		AE9A97CD182F25890089D980 /* ViewBreakdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBreakdown.m; sourceTree = "<group>"; };
 		AE9A97CF182F269E0089D980 /* ViewExpenseDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewExpenseDetail.h; sourceTree = "<group>"; };
 		AE9A97D0182F269E0089D980 /* ViewExpenseDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewExpenseDetail.m; sourceTree = "<group>"; };
 		AE9A97D2182F296D0089D980 /* ViewReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReport.h; sourceTree = "<group>"; };
 		AE9A97D3182F296D0089D980 /* ViewReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReport.m; sourceTree = "<group>"; };
+		AE9A97D6182F52720089D980 /* main-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-background.png"; sourceTree = "<group>"; };
+		AE9A97D8182F58C40089D980 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		AE9A9785182F22B60089D980 = {
 			isa = PBXGroup;
 			children = (
+				AE9A97D5182F3C680089D980 /* model */,
 				AE9A9797182F22B60089D980 /* carcost */,
 				AE9A97B6182F22B60089D980 /* carcostTests */,
 				AE9A9790182F22B60089D980 /* Frameworks */,
@@ -132,10 +137,6 @@
 				AE9A97A3182F22B60089D980 /* Main.storyboard */,
 				AE9A97A6182F22B60089D980 /* ViewController.h */,
 				AE9A97A7182F22B60089D980 /* ViewController.m */,
-				AE9A97C6182F23FE0089D980 /* ModelCar.h */,
-				AE9A97C7182F23FE0089D980 /* ModelCar.m */,
-				AE9A97C8182F23FE0089D980 /* ModelDriver.h */,
-				AE9A97C9182F23FE0089D980 /* ModelDriver.m */,
 				AE9A97A9182F22B60089D980 /* Images.xcassets */,
 				AE9A9798182F22B60089D980 /* Supporting Files */,
 				AE9A97CC182F25890089D980 /* ViewBreakdown.h */,
@@ -143,6 +144,8 @@
 				AE9A97CF182F269E0089D980 /* ViewExpenseDetail.h */,
 				AE9A97D0182F269E0089D980 /* ViewExpenseDetail.m */,
 				AE9A97D2182F296D0089D980 /* ViewReport.h */,
+				AE9A97D8182F58C40089D980 /* chart.png */,
+				AE9A97D6182F52720089D980 /* main-background.png */,
 				AE9A97D3182F296D0089D980 /* ViewReport.m */,
 			);
 			path = carcost;
@@ -175,6 +178,17 @@
 				AE9A97B9182F22B60089D980 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE9A97D5182F3C680089D980 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A97C6182F23FE0089D980 /* ModelCar.h */,
+				AE9A97C7182F23FE0089D980 /* ModelCar.m */,
+				AE9A97C8182F23FE0089D980 /* ModelDriver.h */,
+				AE9A97C9182F23FE0089D980 /* ModelDriver.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9A97D7182F52720089D980 /* main-background.png in Resources */,
 				AE9A97AA182F22B60089D980 /* Images.xcassets in Resources */,
 				AE9A979C182F22B60089D980 /* InfoPlist.strings in Resources */,
+				AE9A97D9182F58C40089D980 /* chart.png in Resources */,
 				AE9A97A5182F22B60089D980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
