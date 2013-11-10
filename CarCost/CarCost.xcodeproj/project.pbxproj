@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C3C66FEBB843D39E6CEF2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F86B78754D774291AD1F94A9 /* libPods.a */; };
+		AE2BA1CE182FE31E001ADD23 /* AutoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2BA1CD182FE31E001ADD23 /* AutoClient.m */; };
+		AE2BA1D11830092B001ADD23 /* ViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2BA1D01830092B001ADD23 /* ViewConfig.m */; };
+		AE2BA1D318301EE9001ADD23 /* settings-mock.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1D218301EE9001ADD23 /* settings-mock.png */; };
+		AE2BA1D518301EF1001ADD23 /* gas-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1D418301EF1001ADD23 /* gas-thumb.png */; };
+		AE2BA1D7183021F3001ADD23 /* driver-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1D6183021F3001ADD23 /* driver-thumb.png */; };
+		AE2BA1D918302A5E001ADD23 /* header-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1D818302A5E001ADD23 /* header-photo.png */; };
+		AE2BA1DC183038FC001ADD23 /* ModelExpense.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2BA1DB183038FC001ADD23 /* ModelExpense.m */; };
+		AE2BA1E118303E14001ADD23 /* icon-57-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1DD18303E14001ADD23 /* icon-57-2x.png */; };
+		AE2BA1E218303E14001ADD23 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1DE18303E14001ADD23 /* icon-57.png */; };
+		AE2BA1E318303E14001ADD23 /* icon-72-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1DF18303E14001ADD23 /* icon-72-2x.png */; };
+		AE2BA1E418303E14001ADD23 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1E018303E14001ADD23 /* icon-72.png */; };
+		AE2BA1ED18303F2C001ADD23 /* Icon-app-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1E518303F2C001ADD23 /* Icon-app-ipad.png */; };
+		AE2BA1EE18303F2C001ADD23 /* Icon-app-ipad@2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1E618303F2C001ADD23 /* Icon-app-ipad@2.png */; };
+		AE2BA1EF18303F2C001ADD23 /* Icon-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1E718303F2C001ADD23 /* Icon-iphone.png */; };
+		AE2BA1F018303F2C001ADD23 /* Icon-iphone@2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1E818303F2C001ADD23 /* Icon-iphone@2.png */; };
+		AE2BA1F118303F2C001ADD23 /* Icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1E918303F2C001ADD23 /* Icon-settings.png */; };
+		AE2BA1F218303F2C001ADD23 /* Icon-settings@2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1EA18303F2C001ADD23 /* Icon-settings@2.png */; };
+		AE2BA1F318303F2C001ADD23 /* Icon-spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1EB18303F2C001ADD23 /* Icon-spotlight.png */; };
+		AE2BA1F418303F2C001ADD23 /* Icon-spotlight@2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2BA1EC18303F2C001ADD23 /* Icon-spotlight@2.png */; };
 		AE9A9792182F22B60089D980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A9791182F22B60089D980 /* Foundation.framework */; };
 		AE9A9794182F22B60089D980 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A9793182F22B60089D980 /* CoreGraphics.framework */; };
 		AE9A9796182F22B60089D980 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A9795182F22B60089D980 /* UIKit.framework */; };
@@ -45,6 +65,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031C3AFFA1014C75AE091EB6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AE2BA1CC182FE31E001ADD23 /* AutoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoClient.h; sourceTree = "<group>"; };
+		AE2BA1CD182FE31E001ADD23 /* AutoClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoClient.m; sourceTree = "<group>"; };
+		AE2BA1CF1830092B001ADD23 /* ViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConfig.h; sourceTree = "<group>"; };
+		AE2BA1D01830092B001ADD23 /* ViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewConfig.m; sourceTree = "<group>"; };
+		AE2BA1D218301EE9001ADD23 /* settings-mock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-mock.png"; sourceTree = "<group>"; };
+		AE2BA1D418301EF1001ADD23 /* gas-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gas-thumb.png"; sourceTree = "<group>"; };
+		AE2BA1D6183021F3001ADD23 /* driver-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "driver-thumb.png"; sourceTree = "<group>"; };
+		AE2BA1D818302A5E001ADD23 /* header-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header-photo.png"; sourceTree = "<group>"; };
+		AE2BA1DA183038FC001ADD23 /* ModelExpense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelExpense.h; path = carcost/ModelExpense.h; sourceTree = "<group>"; };
+		AE2BA1DB183038FC001ADD23 /* ModelExpense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelExpense.m; path = carcost/ModelExpense.m; sourceTree = "<group>"; };
+		AE2BA1DD18303E14001ADD23 /* icon-57-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57-2x.png"; sourceTree = "<group>"; };
+		AE2BA1DE18303E14001ADD23 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		AE2BA1DF18303E14001ADD23 /* icon-72-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72-2x.png"; sourceTree = "<group>"; };
+		AE2BA1E018303E14001ADD23 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		AE2BA1E518303F2C001ADD23 /* Icon-app-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-app-ipad.png"; sourceTree = "<group>"; };
+		AE2BA1E618303F2C001ADD23 /* Icon-app-ipad@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-app-ipad@2.png"; sourceTree = "<group>"; };
+		AE2BA1E718303F2C001ADD23 /* Icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iphone.png"; sourceTree = "<group>"; };
+		AE2BA1E818303F2C001ADD23 /* Icon-iphone@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iphone@2.png"; sourceTree = "<group>"; };
+		AE2BA1E918303F2C001ADD23 /* Icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings.png"; sourceTree = "<group>"; };
+		AE2BA1EA18303F2C001ADD23 /* Icon-settings@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings@2.png"; sourceTree = "<group>"; };
+		AE2BA1EB18303F2C001ADD23 /* Icon-spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-spotlight.png"; sourceTree = "<group>"; };
+		AE2BA1EC18303F2C001ADD23 /* Icon-spotlight@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-spotlight@2.png"; sourceTree = "<group>"; };
 		AE9A978E182F22B60089D980 /* carcost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carcost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9A9791182F22B60089D980 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE9A9793182F22B60089D980 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +124,7 @@
 		AE9A97DE182F67C70089D980 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		AE9A97DF182F67C70089D980 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		AE9A97E1182F70C70089D980 /* view-report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-report.png"; sourceTree = "<group>"; };
+		F86B78754D774291AD1F94A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +135,7 @@
 				AE9A9794182F22B60089D980 /* CoreGraphics.framework in Frameworks */,
 				AE9A9796182F22B60089D980 /* UIKit.framework in Frameworks */,
 				AE9A9792182F22B60089D980 /* Foundation.framework in Frameworks */,
+				49C3C66FEBB843D39E6CEF2E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +160,7 @@
 				AE9A97B6182F22B60089D980 /* carcostTests */,
 				AE9A9790182F22B60089D980 /* Frameworks */,
 				AE9A978F182F22B60089D980 /* Products */,
+				031C3AFFA1014C75AE091EB6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +180,7 @@
 				AE9A9793182F22B60089D980 /* CoreGraphics.framework */,
 				AE9A9795182F22B60089D980 /* UIKit.framework */,
 				AE9A97B0182F22B60089D980 /* XCTest.framework */,
+				F86B78754D774291AD1F94A9 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,13 +201,33 @@
 				AE9A97D0182F269E0089D980 /* ViewExpenseDetail.m */,
 				AE9A97D2182F296D0089D980 /* ViewReport.h */,
 				AE9A97D3182F296D0089D980 /* ViewReport.m */,
+				AE2BA1D818302A5E001ADD23 /* header-photo.png */,
 				AE9A97E1182F70C70089D980 /* view-report.png */,
+				AE2BA1D418301EF1001ADD23 /* gas-thumb.png */,
+				AE2BA1D6183021F3001ADD23 /* driver-thumb.png */,
+				AE2BA1DD18303E14001ADD23 /* icon-57-2x.png */,
+				AE2BA1DE18303E14001ADD23 /* icon-57.png */,
+				AE2BA1DF18303E14001ADD23 /* icon-72-2x.png */,
+				AE2BA1E018303E14001ADD23 /* icon-72.png */,
 				AE9A97DA182F5BF10089D980 /* profile-pic.png */,
+				AE2BA1D218301EE9001ADD23 /* settings-mock.png */,
+				AE2BA1E518303F2C001ADD23 /* Icon-app-ipad.png */,
+				AE2BA1E618303F2C001ADD23 /* Icon-app-ipad@2.png */,
+				AE2BA1E718303F2C001ADD23 /* Icon-iphone.png */,
+				AE2BA1E818303F2C001ADD23 /* Icon-iphone@2.png */,
+				AE2BA1E918303F2C001ADD23 /* Icon-settings.png */,
+				AE2BA1EA18303F2C001ADD23 /* Icon-settings@2.png */,
+				AE2BA1EB18303F2C001ADD23 /* Icon-spotlight.png */,
+				AE2BA1EC18303F2C001ADD23 /* Icon-spotlight@2.png */,
 				AE9A97DB182F5BF10089D980 /* receipt.jpg */,
 				AE9A97D8182F58C40089D980 /* chart.png */,
 				AE9A97D6182F52720089D980 /* main-background.png */,
 				AE9A97DE182F67C70089D980 /* NavigationController.h */,
 				AE9A97DF182F67C70089D980 /* NavigationController.m */,
+				AE2BA1CF1830092B001ADD23 /* ViewConfig.h */,
+				AE2BA1D01830092B001ADD23 /* ViewConfig.m */,
+				AE2BA1CC182FE31E001ADD23 /* AutoClient.h */,
+				AE2BA1CD182FE31E001ADD23 /* AutoClient.m */,
 			);
 			path = carcost;
 			sourceTree = "<group>";
@@ -201,6 +268,8 @@
 				AE9A97C7182F23FE0089D980 /* ModelCar.m */,
 				AE9A97C8182F23FE0089D980 /* ModelDriver.h */,
 				AE9A97C9182F23FE0089D980 /* ModelDriver.m */,
+				AE2BA1DA183038FC001ADD23 /* ModelExpense.h */,
+				AE2BA1DB183038FC001ADD23 /* ModelExpense.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -212,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE9A97C0182F22B60089D980 /* Build configuration list for PBXNativeTarget "carcost" */;
 			buildPhases = (
+				C216102D93F446D6BD608C2E /* Check Pods Manifest.lock */,
 				AE9A978A182F22B60089D980 /* Sources */,
 				AE9A978B182F22B60089D980 /* Frameworks */,
 				AE9A978C182F22B60089D980 /* Resources */,
+				866B6E251D7A44E8945247AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,14 +352,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2BA1F318303F2C001ADD23 /* Icon-spotlight.png in Resources */,
+				AE2BA1E218303E14001ADD23 /* icon-57.png in Resources */,
 				AE9A97D7182F52720089D980 /* main-background.png in Resources */,
 				AE9A97AA182F22B60089D980 /* Images.xcassets in Resources */,
+				AE2BA1D518301EF1001ADD23 /* gas-thumb.png in Resources */,
+				AE2BA1F418303F2C001ADD23 /* Icon-spotlight@2.png in Resources */,
+				AE2BA1EE18303F2C001ADD23 /* Icon-app-ipad@2.png in Resources */,
+				AE2BA1F218303F2C001ADD23 /* Icon-settings@2.png in Resources */,
 				AE9A97DD182F5BF10089D980 /* receipt.jpg in Resources */,
+				AE2BA1ED18303F2C001ADD23 /* Icon-app-ipad.png in Resources */,
 				AE9A979C182F22B60089D980 /* InfoPlist.strings in Resources */,
+				AE2BA1F118303F2C001ADD23 /* Icon-settings.png in Resources */,
+				AE2BA1D318301EE9001ADD23 /* settings-mock.png in Resources */,
+				AE2BA1EF18303F2C001ADD23 /* Icon-iphone.png in Resources */,
+				AE2BA1E318303E14001ADD23 /* icon-72-2x.png in Resources */,
 				AE9A97D9182F58C40089D980 /* chart.png in Resources */,
+				AE2BA1E118303E14001ADD23 /* icon-57-2x.png in Resources */,
 				AE9A97DC182F5BF10089D980 /* profile-pic.png in Resources */,
 				AE9A97E2182F70C70089D980 /* view-report.png in Resources */,
+				AE2BA1D7183021F3001ADD23 /* driver-thumb.png in Resources */,
+				AE2BA1E418303E14001ADD23 /* icon-72.png in Resources */,
 				AE9A97A5182F22B60089D980 /* Main.storyboard in Resources */,
+				AE2BA1D918302A5E001ADD23 /* header-photo.png in Resources */,
+				AE2BA1F018303F2C001ADD23 /* Icon-iphone@2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +389,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		866B6E251D7A44E8945247AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C216102D93F446D6BD608C2E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE9A978A182F22B60089D980 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -311,11 +431,14 @@
 				AE9A97A8182F22B60089D980 /* ViewController.m in Sources */,
 				AE9A97D1182F269E0089D980 /* ViewExpenseDetail.m in Sources */,
 				AE9A97E0182F67C70089D980 /* NavigationController.m in Sources */,
+				AE2BA1D11830092B001ADD23 /* ViewConfig.m in Sources */,
 				AE9A97CB182F23FE0089D980 /* ModelDriver.m in Sources */,
 				AE9A97A2182F22B60089D980 /* AppDelegate.m in Sources */,
 				AE9A979E182F22B60089D980 /* main.m in Sources */,
 				AE9A97D4182F296D0089D980 /* ViewReport.m in Sources */,
 				AE9A97CE182F25890089D980 /* ViewBreakdown.m in Sources */,
+				AE2BA1DC183038FC001ADD23 /* ModelExpense.m in Sources */,
+				AE2BA1CE182FE31E001ADD23 /* AutoClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +562,7 @@
 		};
 		AE9A97C1182F22B60089D980 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031C3AFFA1014C75AE091EB6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -452,6 +576,7 @@
 		};
 		AE9A97C2182F22B60089D980 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031C3AFFA1014C75AE091EB6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -524,6 +649,7 @@
 				AE9A97C2182F22B60089D980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE9A97C3182F22B60089D980 /* Build configuration list for PBXNativeTarget "carcostTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +658,7 @@
 				AE9A97C5182F22B60089D980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

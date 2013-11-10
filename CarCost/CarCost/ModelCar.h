@@ -11,6 +11,8 @@
 @interface ModelCar : NSObject
 
 @property(nonatomic) NSString *name;
+@property(nonatomic) NSString *cost;
+@property(nonatomic) NSString *image;
 //@property(nonatomic) NSDate *endTime;
 
 //@property(nonatomic) ModelBleDevice *modelBleDevice;

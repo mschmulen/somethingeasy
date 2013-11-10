@@ -9,6 +9,7 @@
 #import "ViewBreakdown.h"
 //#import "ViewReportViewController.h"
 #import "ModelCar.h"
+#import "ModelExpense.h"
 
 
 @interface ViewBreakdown ()
@@ -26,12 +27,46 @@
         _tableData = [[NSMutableArray alloc] init];
         
         ModelCar *car = [[ModelCar alloc] init];
-        car.name = @"MY CAR B";
+        car.name = @"tss-Mountain View";
+        car.cost = @"33 miles $9.22";
+        car.image = @"driver-thumb.png";
         [ _tableData addObject:car];
         
         ModelCar *cara = [[ModelCar alloc] init];
-        cara.name = @"MY CAR A";
+        cara.cost = @"54.22";
+        cara.name = @"Gas Chevron";
+        cara.image = @"driver-thumb.png";
         [ _tableData addObject:cara];
+        
+        ModelCar *cark = [[ModelCar alloc] init];
+        cark.name = @"tss-San Mateo ";
+        cark.cost = @"25 miles $12.22";
+        cark.image = @"driver-thumb.png";
+        [ _tableData addObject:cark];
+        
+        ModelCar *carc = [[ModelCar alloc] init];
+        carc.cost = @"22.22";
+        carc.name = @"Car Maintenance";
+        carc.image = @"driver-thumb.png";
+        [ _tableData addObject:carc];
+        
+        ModelCar *carm = [[ModelCar alloc] init];
+        carm.name = @"tss-San Mateo ";
+        carm.cost = @"25 miles $12.22";
+        carm.image = @"driver-thumb.png";
+        [ _tableData addObject:carm];
+        
+        ModelCar *carn = [[ModelCar alloc] init];
+        carn.name = @"Redwood City";
+        carn.cost = @"25 miles $12.22";
+        carn.image = @"driver-thumb.png";
+        [ _tableData addObject:carn];
+        
+        ModelExpense *e = [[ModelExpense alloc] init];
+        e.name = @"San Diego - Milage";
+        e.cost = @" 33 miles 11.22";
+        e.image = @"driver-thumb.png";
+        e.description = @" automatic milage from auto cloud";
         
     }
     
@@ -65,8 +100,18 @@
     
     if ( [[ [self.tableData objectAtIndex:indexPath.row] class] isSubclassOfClass:[ModelCar class]])
     {
+        
         ModelCar *model = (ModelCar *)[self.tableData objectAtIndex:indexPath.row];
-        cell.textLabel.text = [[NSString alloc] initWithFormat:@"%@ $ %@", [model name], [model name] ];
+        cell.textLabel.text = [[NSString alloc] initWithFormat:@"         %@", [model name] ];
+        cell.detailTextLabel.text = [[NSString alloc] initWithFormat:@"         %@", [model cost] ];
+        //cell.imageView.image = [UIImage imageNamed:@"gas-thumb.png"];
+        
+        //cell.imageView.image = [UIImage imageNamed:[model image]];
+        
+        UIImageView *imv = [[UIImageView alloc]initWithFrame:CGRectMake(10,3, 32, 32)];
+        imv.image=[UIImage imageNamed:[model image]];
+        [cell.contentView addSubview:imv];
+        
     }
     
     return cell;

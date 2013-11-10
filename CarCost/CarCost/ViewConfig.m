@@ -13,6 +13,9 @@
 @end
 
 @implementation ViewConfig
+- (IBAction)actionClose:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

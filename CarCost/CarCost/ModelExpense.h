@@ -10,4 +10,9 @@
 
 @interface ModelExpense : NSObject
 
+@property(nonatomic) NSString *name;
+@property(nonatomic) NSString *cost;
+@property(nonatomic) NSString *image;
+@property(nonatomic) NSString *description;
+
 @end
