@@ -11,20 +11,46 @@
 
 ![image](https://raw.github.com/mschmulen/somethingeasy/master/screenshots/flow.png)
 
-##Tech references 
+
+###Issues
+
+- Prefer JSON endpoint
+- MIME type "text/html" instead of "application/xml" or "text/xml" in the header. 
 
 
-yack
-yack
+
+####API's in use
+
+Vehicle information
+
+	Odometer unit (km/mile) OdoUnit
+	Odometer OdoDst Km or mile
+	Vehicle positionModule state
+	Quantity of residual - fuel RestFu	Fuel consumption - CnsFu
+
+####Technology in use
+
+
+- [AFNetworking](http://) 
+- [Cocoapods](http://)
+- [PNChart](https://github.com/kevinzhow/PNChart)
+
+Podfile file 
+
+```
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'PNChart', '~> 0.1.5'
+```
 
 
 
-###Misc
-NewAer
 
-Zapier 
 
-Pearson API
+optional technology
 
-Firebase
+	NewAer
+	Zapier 
+	Pearson API
+	Firebase
 
