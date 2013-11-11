@@ -1,0 +1,14 @@
+# General
+*.swp
+*.swo
+*.rbo
+*.gem
+.DS_Store
+.rbenv-version
+.rbx/
+xcuserdata
+
+
+Pods/
+Podfile.lock
+
