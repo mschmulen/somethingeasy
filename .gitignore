@@ -9,6 +9,11 @@
 xcuserdata
 
 
+# Cocoapods: cocoapods.org
+# pod install
+# In the App.xcodeproj directory.
 Pods/
 Podfile.lock
+
+
 
