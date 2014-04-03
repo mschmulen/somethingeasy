@@ -12,45 +12,30 @@
 ![image](https://raw.github.com/mschmulen/somethingeasy/master/screenshots/flow.png)
 
 
-###Issues
+##Overview
 
-- Prefer JSON endpoint
-- MIME type "text/html" instead of "application/xml" or "text/xml" in the header. 
+iOS application submission from Toyota Prius 24 hour "connected car " challenge  held in Mountain View, CA.
 
-
-
-####API's in use
+##API's in use
 
 Vehicle information
 
-	Odometer unit (km/mile) OdoUnit
-	Odometer OdoDst Km or mile
-	Vehicle positionModule state
-	Quantity of residual - fuel RestFu	Fuel consumption - CnsFu
+- Odometer unit (km/mile) OdoUnit
+- Odometer OdoDst Km or mile
+- Vehicle positionModule state
+- Quantity of residual - fuel RestFu- Fuel consumption - CnsFu
 
-####Technology in use
-
+####Technology componets
 
 - [AFNetworking](http://) 
 - [Cocoapods](http://)
 - [PNChart](https://github.com/kevinzhow/PNChart)
 
-Podfile file 
+
+Podfile file:
 
 ```
 platform :ios, '7.0'
 pod "AFNetworking", "~> 2.0"
 pod 'PNChart', '~> 0.1.5'
 ```
-
-
-
-
-
-optional technology
-
-	NewAer
-	Zapier 
-	Pearson API
-	Firebase
-
