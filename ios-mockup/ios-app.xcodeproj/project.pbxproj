@@ -21,7 +21,7 @@
 		AE78C7CE182ECC3400896BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78C7B0182ECC3300896BEE /* UIKit.framework */; };
 		AE78C7D6182ECC3400896BEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE78C7D4182ECC3400896BEE /* InfoPlist.strings */; };
 		AE78C7D8182ECC3400896BEE /* ios_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE78C7D7182ECC3400896BEE /* ios_appTests.m */; };
-		AE78C7E2182ECF0400896BEE /* chart-of-the-day-ipad-unit-sales-oct-2012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE78C7E1182ECF0400896BEE /* chart-of-the-day-ipad-unit-sales-oct-2012.jpg */; };
+		C998DD4A18ECDCD50067F000 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = C998DD4918ECDCD50067F000 /* chart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		AE78C7D3182ECC3400896BEE /* ios-appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-appTests-Info.plist"; sourceTree = "<group>"; };
 		AE78C7D5182ECC3400896BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE78C7D7182ECC3400896BEE /* ios_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_appTests.m; sourceTree = "<group>"; };
-		AE78C7E1182ECF0400896BEE /* chart-of-the-day-ipad-unit-sales-oct-2012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chart-of-the-day-ipad-unit-sales-oct-2012.jpg"; sourceTree = "<group>"; };
+		C998DD4918ECDCD50067F000 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,7 @@
 				AE78C7BE182ECC3300896BEE /* Main.storyboard */,
 				AE78C7C1182ECC3300896BEE /* ViewController.h */,
 				AE78C7C2182ECC3300896BEE /* ViewController.m */,
+				C998DD4918ECDCD50067F000 /* chart.png */,
 				AE78C7C4182ECC3300896BEE /* Images.xcassets */,
 				AE78C7B3182ECC3300896BEE /* Supporting Files */,
 			);
@@ -128,7 +129,6 @@
 		AE78C7B3182ECC3300896BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE78C7E1182ECF0400896BEE /* chart-of-the-day-ipad-unit-sales-oct-2012.jpg */,
 				AE78C7B4182ECC3300896BEE /* ios-app-Info.plist */,
 				AE78C7B5182ECC3300896BEE /* InfoPlist.strings */,
 				AE78C7B8182ECC3300896BEE /* main.m */,
@@ -233,8 +233,8 @@
 			files = (
 				AE78C7C5182ECC3300896BEE /* Images.xcassets in Resources */,
 				AE78C7B7182ECC3300896BEE /* InfoPlist.strings in Resources */,
+				C998DD4A18ECDCD50067F000 /* chart.png in Resources */,
 				AE78C7C0182ECC3300896BEE /* Main.storyboard in Resources */,
-				AE78C7E2182ECF0400896BEE /* chart-of-the-day-ipad-unit-sales-oct-2012.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
